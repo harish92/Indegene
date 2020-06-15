@@ -1,0 +1,15 @@
+ul.movie-list {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+ul.movie-list li {
+    margin-right: 1px;
+    list-style: none;
+    /* flex: 3; */
+    width: 24%;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
